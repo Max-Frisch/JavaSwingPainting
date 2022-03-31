@@ -2,7 +2,7 @@ package main;
 
 import javax.swing.*;
 
-public class App {
+public class Main {
 
     public static void main(String[] args) {
         // create a window frame and set the title bar in the toolbar
@@ -11,7 +11,7 @@ public class App {
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         // create a canvas to draw on
-        MyCanvas canvas = new MyCanvas();
+        Canvas canvas = new Canvas();
         // add the canvas to the window
         window.add(canvas);
 

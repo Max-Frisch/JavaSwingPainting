@@ -3,11 +3,10 @@ package main;
 import javax.swing.*;
 import java.awt.*;
 
-public class MyCanvas extends JPanel {
+public class Canvas extends JPanel {
 
-    public MyCanvas() {
+    public Canvas() {
         setPreferredSize(new Dimension(900, 600));
-
         setBackground(Color.white);
     }
 
@@ -26,9 +25,5 @@ public class MyCanvas extends JPanel {
         brush.drawTree(600, 20);
         brush.drawTree(720, 0);
         brush.drawTree(790, 45);
-
-
     }
-
-
 }
